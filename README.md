@@ -1,6 +1,6 @@
 # Find the first non-repeating character efficiently
-### Language:   JavaScript
-### Author:     Tobias Andersen
+Language:   JavaScript
+Author:     Tobias Andersen
 
 ## Description
 Playing around with the common algo challenge of finding the first non-repeating character
