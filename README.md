@@ -3,7 +3,7 @@ Language:   JavaScript
 
 Author:     Tobias Andersen
 
-** <a href="https://jsfiddle.net/nq91p7av/6/" target="_blank">Try on JSFiddle!</a> **
+**[Try on JSFiddle!](https://jsfiddle.net/nq91p7av/6/){:target="_blank"}**
 
 ## Description
 Playing around with the common algo challenge of finding the first non-repeating character
