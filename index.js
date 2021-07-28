@@ -12,7 +12,7 @@
 const firstNonRepeatingCharacter = (string) => {
   
   // Iterate each character from index 1, set insideSequence to false
-  for (index = 1, insideSequence = false, stringLength = stringLength; index < stringLength; index++) {
+  for (index = 1, insideSequence = false, stringLength = string.length; index < stringLength; index++) {
 
     // Skip to next iteration if previous character is a repeat
     // Set insideSequence to true to indicate ongoing repetition
