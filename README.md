@@ -46,9 +46,11 @@ const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(
 ```
 
 ## Example inputs and outputs
+```javascript
+ssssdddKKKKjjjjwwww!wwwweskjdjfhkjwh" = !```
 
-`"ssssdddKKKKjjjjwwww!wwwweskjdjfhkjwh"`javascript => `"!"`javascript
+```javascript
+aaassslllkjdoiqwjsdkjlqwe" = k```
 
-`"aaassslllkjdoiqwjsdkjlqwe"`javascript => `"k"`javascript
-
-`"aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå"`javascript => `false`javascript
+```javascript
+aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå" = false```
