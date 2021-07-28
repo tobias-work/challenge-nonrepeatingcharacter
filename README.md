@@ -41,7 +41,7 @@ const firstNonRepeatingCharacter = (string) => {
 }
 
 /* Minified version solving the common algo of finding the first non-repeating character */
-const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(!c)return s[i-1];c=0}return s[l-1]===s[l-2]?0:s[l-1]}
+const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(!c)return s[i-1];c=false}return s[l-1]===s[l-2]?false:s[l-1]}
 ```
 
 ## Example inputs and outputs
