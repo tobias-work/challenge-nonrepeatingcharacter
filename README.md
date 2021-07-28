@@ -47,11 +47,8 @@ const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(
 
 ## Example inputs and outputs
 
-### "ssssdddKKKKjjjjwwww!wwwweskjdjfhkjwh"
-`!`
+`"ssssdddKKKKjjjjwwww!wwwweskjdjfhkjwh"` => `!`
 
-### "aaassslllkjdoiqwjsdkjlqwe"
-`k`
+`"aaassslllkjdoiqwjsdkjlqwe"` => `k`
 
-### "aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå"
-`false`
+`"aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå"` => `false`
