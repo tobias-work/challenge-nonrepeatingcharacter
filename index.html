@@ -1,0 +1,52 @@
+<html>
+  <head><title>Non-repeating character test</title></head>
+  <body>
+    <div id="testContainer">
+      <h1>Detect first non-repeating character in a string</h1>
+      <input id="testInput" onKeyup="runTest()" value="eexxaammpplleeestring"/>
+      <div id="testResult"></div>
+    </div>
+    <style>
+      div {
+        padding: 1rem 2rem;
+      }
+
+      div > div {
+        padding: 0.5rem 0rem;
+      }
+
+      input {
+        padding: 0.25rem 0.5rem;
+      }
+
+      #testContainer {
+        font-family: monospace;
+      }
+    </style>
+    <script type="javascript">
+      let iterations = 0
+      const u = (s) => {
+        if (!s) { iterations = 0; return false }
+        iterations = 1
+        for (i = 1, c = 0, l = s.length; i < l; i++, iterations++) {
+          if (s[i] === s[i - 1]) {
+            c++;
+            continue
+          }
+          if (!c) return s[i - 1];
+          c = false
+        }
+        return s[l - 1] === s[l - 2] ? false : s[l - 1]
+      }
+
+      const resultElement = document.getElementById('testResult')
+      const testInput = document.getElementById('testInput')
+
+      function runTest() {
+        const result = u(testInput.value)
+        resultElement.innerHTML = (result ? 'Non-repeating character: ' + result : 'No non-repeating character found') + '<br/><br/>Iterations: ' + iterations
+      }
+      runTest()
+    </script>
+  </body>
+</html>
