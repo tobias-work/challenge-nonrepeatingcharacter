@@ -1,5 +1,6 @@
 # Find the first non-repeating character efficiently
 Language:   JavaScript
+
 Author:     Tobias Andersen
 
 ## Description
