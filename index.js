@@ -39,32 +39,12 @@ const firstNonRepeatingCharacter = (string) => {
 }
 
 /* Minified version solving the common algo of finding the first non-repeating character */
-const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(!c)return s[i-1];c=0}return s[l-1]===s[l-2]?0:s[l-1]}
+const u=(s)=>{for(i=1,c=0,l=s.length;i<l;i++){if(s[i]===s[i-1]){c++;continue}if(!c)return s[i-1];c=false}return s[l-1]===s[l-2]?false:s[l-1]}
 
 const tests = [
-  "aaaaaaaaaaaaaabbbbbbbbbbbbbbbbbIkkkkkkkk",
-  "lllllllllllkkkkkkkkkkkooooooooooooeeeeeeeeeddggg ",
-  "iiiiijjjjjjjjuuuuuhhhææææælllKKKJJhhhuuuLoooooo",
-  "aaaaaaaaaaaaaaaaaafffffffffffff222fffffnn6666nnnnnnnnnnnnn",
-  "yyyyyyyyyhhhhhhhhjjjjj33KKKLLIIiiissøøøææÆÆÆÅÅååå",
-  "aaabbbbccvvvvvkkkokkqqqqqæææææååååccdddeeee", 12, 354,886,
-  "aaaaaaaaaaaaaaaaaaffffffffffffffffddddddddd33333337777777aaaaaaffnnnnnnnnnnnnnnn",
-  "aaabbbbccvvvvvkkkvkkqqqq66qæææææååååccdddeeee",
-  "aaabbbbccvvvvvkkkekkqqqqqæææææååååccdddeeee",123,5345,547,234,234,67,"aaaafffdd",
-  "aaaaaaaaaaaaaaaaaaffffffffffffffffffnnnnnnnnnnnnnnn",
-  "aaabbbbccvvvvvkkk kkqqqqqæ888ææææååååccdddeeee",
-  "sssskkkkdddYjj",
-  "aaaaaaaaaaaaaaaaaaffffffffffffffffffnnnnnnnnnnnnnnn",
-  "aaaaaaaaaaakkkkkkkkkkkkkwwwww999wwwwwwwwjjjjjjjjjjjiiiiiiiiiiiiiiiolllllllllll",
-  "ssssssssssssjjjjjjjjjjjjjjjudkajsldkhqowic bckjhfwieuq qwe ",
-  "kkss!)()()/%)(&&&&&/(#)))((/3333)#/(",
-  "aaaaaaaaaaaaaaaaaaffffffffffffffffffnnnnnnnnnnnnnnn", 12, 123, 564, 9384
+  "ssssdddKKKKjjjjwwww!wwwweskjdjfhkjwh", "aaassslllkjdoiqwjsdkjlqwe", "aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå"
 ]
 
-let response = ''
-
 for (test in tests) {
-  response += u(tests[test]) || ''
+  console.log(u(tests[test]))
 }
-
-console.log(response)
