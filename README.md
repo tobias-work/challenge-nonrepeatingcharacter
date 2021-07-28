@@ -3,6 +3,8 @@ Language:   JavaScript
 
 Author:     Tobias Andersen
 
+**[Try on JSFiddle!](https://jsfiddle.net/nq91p7av/6/)**
+
 ## Description
 Playing around with the common algo challenge of finding the first non-repeating character
 in a given string while only traversing the string up to the point a non-repeating character is detected
