@@ -1,4 +1,4 @@
-# Find the first non-repeating character efficiently
+# Find the first non-repeating character
 Language:   JavaScript
 
 Author:     Tobias Andersen
