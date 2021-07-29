@@ -11,6 +11,11 @@ in a given string while only traversing the string up to the point a non-repeati
 
 Iteration count is equal to the amount of characters until detection plus string length, or twice the string length if none found
 
+## Common pitfalls
+A big part of this kind of challenge is determining whether or not a developer is able to thoroughly examine the task before it is worked on.
+
+It is all too easy to end up writing a function that returns the first non-*consecutive* character, which is a [wholly different function](https://jsfiddle.net/nq91p7av/6/)
+
 ## Algorithm
 ```javascript
 /* Verbose version solving the common algo of finding the first non-repeating character */
