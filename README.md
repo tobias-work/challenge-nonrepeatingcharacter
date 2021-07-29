@@ -52,3 +52,6 @@ const u =(s)=>{let o={};for(i in s){o[s[i]]=(o[s[i]]||0)+1};for(c in o){if(o[c]=
 ```javascript
 "aaaaaaaaakkkkkkkkkkkkkkwwwwwwwwwwwjjÆÆøøåååå" = "false"
 ```
+
+## Caveats
+Object keys are sorted chronologically, but grouped differently. That means it may not work as expected if the input string contains a mix of integers, characters, or symbols.
