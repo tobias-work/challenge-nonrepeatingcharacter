@@ -11,6 +11,8 @@ in a given string while only traversing the string up to the point a non-repeati
 
 Iteration count is equal to the amount of characters until detection plus string length, or twice the string length if none found
 
+Using string functions such as charAt and indexOf was decided against due to it's invocation being necessitated for each character in the string until returning, and as such I deemed it too performance intensive compared to simply looping through the string two times.
+
 ## Common pitfalls
 A big part of this kind of challenge is determining whether or not a developer is able to thoroughly examine the task before it is worked on.
 
@@ -59,4 +61,4 @@ const u =(s)=>{let o={};for(i in s){o[s[i]]=(o[s[i]]||0)+1};for(c in o){if(o[c]=
 ```
 
 ## Caveats
-Object keys are sorted chronologically, but grouped depending on whether the string index is a number, a character or a symbol, respectively.
+- Object keys are sorted chronologically, but grouped depending on whether the string index is a number, a character or a symbol, respectively.
