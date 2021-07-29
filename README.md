@@ -14,7 +14,7 @@ Iteration count is equal to the amount of characters until detection plus string
 ## Common pitfalls
 A big part of this kind of challenge is determining whether or not a developer is able to thoroughly examine the task before it is worked on.
 
-It is all too easy to end up writing a function that returns the first non-*consecutive* character, which is a [wholly different function](https://jsfiddle.net/nq91p7av/6/)
+It is all too easy to end up writing a function that returns the first non-*consecutive* character, which is a [wholly different function](https://jsfiddle.net/a1dmrt9o/)
 
 ## Algorithm
 ```javascript
