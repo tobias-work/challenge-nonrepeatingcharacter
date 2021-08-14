@@ -1,6 +1,6 @@
 # Find the first non-repeating character
 Language:   JavaScript
-
+ 
 Author:     Tobias Andersen
 
 **[Try on JSFiddle!](https://jsfiddle.net/xf06wups/)**
