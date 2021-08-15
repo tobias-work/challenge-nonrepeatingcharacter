@@ -61,4 +61,4 @@ const u =(s)=>{let o={};for(i in s){o[s[i]]=(o[s[i]]||0)+1};for(c in o){if(o[c]=
 ```
 
 ## Notes
-- `for in` Object keys are sorted chronologically, but grouped depending on whether the string index is a number, a character or a symbol, respectively.
+`for in` Object keys are sorted chronologically, but grouped depending on whether the string index is a number, a character or a symbol, respectively.
