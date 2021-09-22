@@ -2,7 +2,7 @@
 **Language:**   JavaScript
 
 **Author:**     Tobias Andersen
-
+ 
 **[Try on JSFiddle!](https://jsfiddle.net/xf06wups/)**
  
 ## Description
